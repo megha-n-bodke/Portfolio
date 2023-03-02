@@ -76,7 +76,7 @@ const cardData = [
     seeSource: "https://github.com/fullstop125/space-hub",
   },
 
-  {
+  /*   {
     title: "Bookstore CMS",
     imag: "bookstore-app.png",
     role: "Bookstore",
@@ -87,7 +87,7 @@ const cardData = [
     tags: ["javascript", "API", "react", "redux", "jest", "bootstrap"],
     seeLive: "https://bookstorecmsreact.netlify.app/",
     seeSource: "https://github.com/megha-n-bodke/book-store-react-app",
-  },
+  }, */
 
   {
     title: "coin-api-react-capstone",
@@ -123,8 +123,7 @@ const cardData = [
     projectDescription:
       "A website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
     tags: ["JavaScript", "webpack", "jest", "API", "bootstrap "],
-    seeLive:
-      "https://63ff6c5d1816881d527a46cb--scintillating-sorbet-f44e94.netlify.app/",
+    seeLive: "https://my-leaderboard-app.netlify.app/",
     seeSource: "https://github.com/megha-n-bodke/Leaderboard",
   },
   {
@@ -205,7 +204,9 @@ function setData(data) {
     ul.innerHTML += `<li>${tagItems}</li>`;
   });
   document.getElementById("see-live").setAttribute("href", data.seeLive);
+  document.getElementById("see-live").setAttribute("target", "_blank");
   document.getElementById("see-source").setAttribute("href", data.seeSource);
+  document.getElementById("see-source").setAttribute("target", "_blank");
 }
 
 cardData.forEach((items, i) => {
