@@ -225,6 +225,8 @@ cardData.forEach((items, i) => {
     });
 });
 
+//skills section
+
 // form validation start
 
 form.addEventListener("submit", (e) => {

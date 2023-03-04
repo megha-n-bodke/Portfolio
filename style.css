@@ -367,7 +367,6 @@ nav {
   font-weight: 500;
   margin-left: 20px;
   text-shadow: 1px 1px 1px #000;
-  font-family: "Alegreya", serif;
 }
 
 .menu-icon {
@@ -691,6 +690,10 @@ form div {
 svg {
   display: block;
   font: 3.5em "Montserrat", sans-serif;
+}
+
+#rails-logo {
+  width: 4.5rem;
 }
 
 @media only screen and (min-width: 768px) {
