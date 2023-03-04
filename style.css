@@ -20,6 +20,8 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: #fff;
+  position: fixed;
+  width: 100%;
 }
 
 body {
