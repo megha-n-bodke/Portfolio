@@ -189,6 +189,12 @@ document.getElementById("btn-close").addEventListener("click", () => {
   document.getElementById("overlay").classList.remove("active");
 });
 
+//on modal click close modal
+document.getElementById("modal-pop").addEventListener("click", () => {
+  document.getElementById("modal").classList.remove("active");
+  document.getElementById("overlay").classList.remove("active");
+});
+
 function setData(data) {
   document.getElementById("modal-title").innerText = data.title;
   document.getElementById("role").innerText = data.role;
