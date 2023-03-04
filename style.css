@@ -364,7 +364,7 @@ nav {
 .intro {
   color: var(--title-color);
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: bold;
   margin-left: 20px;
   text-shadow: 1px 1px 1px #000;
 }
@@ -1265,7 +1265,6 @@ svg {
     font-weight: 500;
     margin-left: 20px;
     text-shadow: 1px 1px 1px #000;
-    font-family: "Alegreya", serif;
   }
 
   .container {
